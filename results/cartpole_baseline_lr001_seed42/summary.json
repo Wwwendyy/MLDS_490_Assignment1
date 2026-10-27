@@ -1,0 +1,15 @@
+{
+  "environment": "CartPole-v1",
+  "algorithm": "REINFORCE with learned state-value baseline",
+  "seed": 42,
+  "episodes_trained": 1000,
+  "evaluation_episodes": 500,
+  "gamma": 0.95,
+  "learning_rate": 0.001,
+  "evaluation_deterministic": false,
+  "pong_fixed_fire_startup": false,
+  "evaluation_reward_mean": 164.234,
+  "evaluation_reward_std": 25.772148752143373,
+  "last_100_training_reward_mean": 224.03,
+  "device": "cuda"
+}

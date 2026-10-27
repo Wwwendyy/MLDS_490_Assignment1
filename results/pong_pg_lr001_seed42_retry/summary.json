@@ -1,0 +1,15 @@
+{
+  "environment": "ALE/Pong-v5",
+  "algorithm": "REINFORCE without baseline",
+  "seed": 42,
+  "episodes_trained": 3000,
+  "evaluation_episodes": 500,
+  "gamma": 0.99,
+  "learning_rate": 0.001,
+  "evaluation_deterministic": false,
+  "pong_fixed_fire_startup": true,
+  "evaluation_reward_mean": -20.47,
+  "evaluation_reward_std": 0.7577918559828866,
+  "last_100_training_reward_mean": -20.47,
+  "device": "cuda"
+}
